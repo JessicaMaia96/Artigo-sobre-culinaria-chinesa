@@ -1,0 +1,170 @@
+/* inicio INTERFACE*/
+body {
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    user-select: none;
+}
+
+.interface {
+    max-width: 100%;
+    width: 900px;
+    background-color: rgb(211, 204, 204);
+    color: rgba(0, 0, 0, 0.8);
+    margin: -20px auto 10px auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    
+}
+
+.cabecalho h1 {
+    margin-bottom: 1px;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 30pt;
+}
+
+.cabecalho h2 {
+    border-bottom: 1px solid black;
+    height: 50px;
+    margin-top: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+}
+
+/*iNICIO SOBRE*/
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.sobre img { 
+    max-width: 100%;
+    height: auto;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    margin: 0 auto 40px;
+    display: block;
+    position: relative;
+}    
+
+.sobre figcaption {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+/*FIM SOBRE*/
+
+/*INICIO PRATOS */
+
+.pratos {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060 ; 
+    border-top: 1px solid #606060;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.pratos article {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.pratos h2 {
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.pratos article p {
+    margin-top: 5px;
+}
+
+.pratos img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    margin: 0 auto 40px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.pratos img:hover,
+.sobre img:hover {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.05);
+    margin-top: 10px;   
+ 
+}
+
+/*FIM PRATOS*/
+
+/*INCIO CURIOSIDADES*/
+
+.curiosidades {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;  
+    border-top: 1px solid #606060;
+    
+}    
+    
+.curiosidades h3 {
+    text-align: center;
+}
+
+.curiosidades ul {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    
+}
+
+.curiosidades p {
+    font-size: 12pt;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-left: 10px;
+} 
+
+.outros {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outros h3 {
+    text-align: center;
+}
+
+.outros p {
+    font-size: 12pt;
+    margin: auto;
+}
+
+/*FIM CURIOSIDADES*/
+
+.rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+    
+
+.rodape p {
+    text-align: center;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+/*FIM INTERFACE*/
