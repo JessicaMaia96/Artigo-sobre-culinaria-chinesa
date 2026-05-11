@@ -132,16 +132,14 @@ p {
 .curiosidades ul {
     font-size: 13pt;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 40px;
-    
+    margin-bottom: 15px;   
 }
 
-.curiosidades p {
-    font-size: 12pt;
-    margin-bottom: 10px;
+.curiosidades li {
+    list-style: none;
     margin-left: 15px;
     padding-left: 10px;
-} 
+}
 
 .outros {
     font-size: 13pt;
@@ -150,12 +148,17 @@ p {
 
 .outros h3 {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .outros p {
     font-size: 12pt;
     margin: auto;
+}
+
+.outros li {
+    list-style: none;
+    text-align: center;
 }
 
 .video {
@@ -169,6 +172,7 @@ img {
     border: 8px solid white;
     max-width: 300px;
     margin-left: 15px;
+    box-shadow: 1px 1px 4px black;
 }
 
 /*FIM CURIOSIDADES*/
